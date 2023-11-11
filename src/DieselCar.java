@@ -1,7 +1,7 @@
 package src;
 
 public class DieselCar extends AFuelCar{
-    private boolean particleFilter;
+    final boolean particleFilter;
 
     public DieselCar(int kmPrLitre, boolean particleFilter, String registrationNumber, String brand, String model, int numberOfDoors) {
         super(kmPrLitre, registrationNumber, brand, model, numberOfDoors);
@@ -18,7 +18,7 @@ public class DieselCar extends AFuelCar{
         int sum = 0;
         if (!particleFilter)
         {
-            sum =+ 1000;
+            sum += 1000;
         }
         if (getKmPrLitre() < 5)
         {

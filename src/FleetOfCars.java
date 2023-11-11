@@ -23,9 +23,8 @@ public class FleetOfCars {
     public int getTotalRegistrationFeeForFleet()
     {
         int sum = 0;
-        for (int i = 0; i < fleet.size(); i++)
-        {
-            sum += fleet.get(i).getRegistrationFee();
+        for (Car car : fleet) {
+            sum += car.getRegistrationFee();
         }
         return sum;
     }
@@ -34,9 +33,8 @@ public class FleetOfCars {
     public String toString()
     {
         String name = "";
-        for (int i = 0; i < fleet.size(); i++)
-        {
-            name = (fleet.get(i).getMake());
+        for (Car car : fleet) {
+            name = (car.getMake());
         }
         return name;
     }

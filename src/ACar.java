@@ -2,10 +2,10 @@ package src;
 
 abstract class ACar implements Car {
 
-    private String registrationNumber;
-    private String brand;
-    private String model;
-    private int numberOfDoors;
+    final String registrationNumber;
+    final String brand;
+    final String model;
+    final int numberOfDoors;
 
     public ACar(String registrationNumber, String brand, String model, int numberOfDoors){
         this.registrationNumber = registrationNumber;

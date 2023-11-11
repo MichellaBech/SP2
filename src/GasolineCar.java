@@ -1,7 +1,7 @@
 package src;
 
 public class GasolineCar extends AFuelCar{
-    private String registrationNumber;
+   private String registrationNumber;
     public GasolineCar(int kmPrLitre, String registrationNumber, String brand, String model, int numberOfDoors) {
         super(kmPrLitre, registrationNumber, brand, model, numberOfDoors);
 
