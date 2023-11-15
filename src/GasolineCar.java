@@ -30,10 +30,4 @@ public class GasolineCar extends AFuelCar{
             return 330;
         }
     }
-
-    @Override
-    public String toString()
-    {
-        return super.toString();
-    }
 }

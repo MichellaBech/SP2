@@ -1,7 +1,7 @@
 package src;
 
 public class DieselCar extends AFuelCar{
-    final boolean particleFilter;
+    private final boolean particleFilter;
 
     public DieselCar(int kmPrLitre, boolean particleFilter, String registrationNumber, String brand, String model, int numberOfDoors) {
         super(kmPrLitre, registrationNumber, brand, model, numberOfDoors);

@@ -1,7 +1,7 @@
 package src;
 
 abstract class AFuelCar extends ACar {
-    final int kmPrLitre;
+    private final int kmPrLitre;
     public AFuelCar (int kmPrLitre, String registrationNumber, String brand, String model, int numberOfDoors)
     {
         super(registrationNumber, brand, model, numberOfDoors);
